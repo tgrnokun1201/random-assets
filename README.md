@@ -1,1 +1,3 @@
-random things
+art gallery for some of my drawings...
+
+no ai is used.
