@@ -1,0 +1,37 @@
+body {
+    background: #111111;
+    margin: 0px;
+    user-select: none;
+}
+
+header {
+    color: #f1f1f1;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+#content {
+    padding: 100px;
+    padding-top: 25px;
+    text-align: center;
+    animation: mySlide;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
+
+a:link {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8dafd4;
+}
+
+@keyframes mySlide{
+    from{margin-top: 15%; opacity: 0%;}
+    tp{margin-top: 0%; opacity: 100%;}
+}
